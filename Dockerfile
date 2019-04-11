@@ -14,7 +14,7 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 EXPOSE 4444 
 
 # Define environment variable
-ENV NAME Internet
+ENV NAME World
 
 # Run app.py when the container launches
 CMD ["python", "testing.py"]
